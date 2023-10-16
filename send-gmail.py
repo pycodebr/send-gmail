@@ -1,9 +1,8 @@
-import json 
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
 
-# Corpo da mensagem do email #
+# Corpo da mensagem do email 
 msg = MIMEMultipart()
 message = "Você recebeu um email da Pycodebr :)"
 
